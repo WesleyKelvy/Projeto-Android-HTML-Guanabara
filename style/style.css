@@ -7,15 +7,6 @@
     font-weight: normal;
 }
 
-/*
-#c5ebd6
-#83e1ad
-#3ddc84
-#2fa866
-#1a5c37
-#063d1e
-*/
-
 :root {
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
@@ -80,7 +71,7 @@ header {
 header>h1 {
     color: white;
     font-family: var(--font-destaque);
-    margin-bottom: 20px;
+    padding: 20px;
     font-size: 3em;
     text-shadow: rgba(0, 0, 0, 0.514) 3px 3px 0px;
     font-weight: normal;
@@ -94,7 +85,7 @@ header>p {
     margin: auto;
     padding: 0px 10px;
     text-shadow: rgba(0, 0, 0, 0.514) 2px 2px 0px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -158,14 +149,14 @@ main h2 {
 }
 
 div.video-android {
-    background-color:var(--cor5) ;
+    background-color: var(--cor5);
     margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 57%;
     position: relative;
 }
 
-div.video-android > iframe {
+div.video-android>iframe {
     position: absolute;
     top: 5%;
     left: 5%;
